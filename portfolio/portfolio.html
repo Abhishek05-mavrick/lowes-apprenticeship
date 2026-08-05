@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Abhishek</a>
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-3">
+        <h1 class="display-5 fw-bold">Abhishek</h1>
+        <p class="col-md-8 fs-5">CS Student | Full-Stack | AI & ML</p>
+        <p>building stuff, learning things</p>
+        <button class="btn btn-primary btn-lg" type="button" onclick="document.getElementById('contact').scrollIntoView()">Contact Me</button>
+      </div>
+    </div>
+
+    <div id="about" class="mb-5">
+      <h2>About Me</h2>
+      <hr>
+      <p>I'm Abhishek, a Computer Science undergraduate passionate about building intelligent software that solves real-world problems. My interests lie at the intersection of full-stack development, artificial intelligence, and machine learning, where I enjoy transforming complex ideas into practical, user-focused applications.</p>
+      <p>I've worked on projects involving LLMs, Retrieval-Augmented Generation (RAG), web development, and scalable backend systems. I'm constantly exploring new technologies, improving my problem-solving skills, and building projects that challenge me to grow as an engineer.</p>
+      <p>When I'm not coding, you'll probably find me learning something new, solving programming challenges, or experimenting with ideas that push the boundaries of technology.</p>
+    </div>
+
+
+    <div id="skills" class="mb-5">
+      <h2>Skills</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">Flask</li>
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">LangChain</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">Docker</li>
+            <li class="list-group-item">PostgreSQL</li>
+            <li class="list-group-item">Qiskit</li>
+            <li class="list-group-item">FAISS</li>
+            <li class="list-group-item">Git</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-3">
+        <span class="badge text-bg-primary">Python</span>
+        <span class="badge text-bg-secondary">JavaScript</span>
+        <span class="badge text-bg-success">Flask</span>
+        <span class="badge text-bg-danger">React</span>
+        <span class="badge text-bg-warning">LangChain</span>
+        <span class="badge text-bg-info">Docker</span>
+        <span class="badge text-bg-dark">PostgreSQL</span>
+        <span class="badge text-bg-primary">Qiskit</span>
+        <span class="badge text-bg-secondary">FAISS</span>
+        <span class="badge text-bg-success">Git</span>
+      </div>
+    </div>
+
+    <div id="projects" class="mb-5">
+      <h2>Projects</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">1. Multi-Model RAG Assistant</h5>
+              <p class="card-text">An AI-powered Retrieval-Augmented Generation (RAG) system that retrieves information from PDFs, web pages, and documents to generate accurate, context-aware responses. Built with LangGraph, FAISS, and Flask.</p>
+              <p class="card-text"><small class="text-muted">Tech: Python, Flask, LangChain, LangGraph, FAISS, Hugging Face, PostgreSQL</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">2. ADAMOPS – AI Operations Framework</h5>
+              <p class="card-text">A scalable framework for managing Machine Learning and LLM workflows, providing model deployment, monitoring, experiment tracking, and API integration.</p>
+              <p class="card-text"><small class="text-muted">Tech: Python, Docker, REST APIs, PostgreSQL, Git</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">3. Quantum Edge Detection</h5>
+              <p class="card-text">A quantum computing project implementing image edge detection using quantum circuits and hybrid classical-quantum techniques. Explores practical applications of quantum algorithms in computer vision.</p>
+              <p class="card-text"><small class="text-muted">Tech: Python, Qiskit, NumPy, Matplotlib</small></p>
+            </div>
+        </div>
+        </div>
+</div>
+    </div>
+
+    
+<div id="contact" class="mb-5">
+      <h2>Contact</h2>
+      <hr>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text"><strong>Email:</strong> VabhishekBTECH23@ced.alliance.edu.in</p>
+          <p class="card-text"><strong>GitHub:</strong> github.com/abhishek05-mavrick</p>
+          <p class="card-text"><strong>LinkedIn:</strong> linkedin.com/in/abhishek05-mavrick</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <div class="container">
+      <p class="mb-0">Abhishek · 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    alert("Welcome to my portfolio! Feel free to explore my projects and skills.");
+    let input = prompt("Please enter your name:");
+alert(`Hello, ${input}! Thank you for visiting my portfolio.`);
+
+  </script>
+</body>
+</html>
